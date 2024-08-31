@@ -1,0 +1,17 @@
+# Dependencies
+/node_modules
+
+# Testing
+/coverage
+
+# Production
+/build
+
+# Miscellaneous
+.DS_Store
+.env
+npm-debug.log
+.vscode
+
+# JavaScript Files
+*.js
