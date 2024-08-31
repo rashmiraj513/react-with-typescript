@@ -1,0 +1,29 @@
+{
+  "name": "react-with-typescript-playground",
+  "version": "1.0.0",
+  "description": "This repository follows the Udemy Course [React & TypeScript - The Practical Guide](https://www.udemy.com/course/react-typescript-the-practical-guide/) by [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier --check \"**/*.{js,jsx,json,html,css,ts,tsx,yml,yaml,md}\"",
+    "prettier:write": "prettier --write \"**/*.{js,jsx,json,html,css,ts,tsx,yml,yaml,md}\" --ignore-unknown",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,html,css,json,md}": [
+      "npm run prettier:write"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3"
+  }
+}
