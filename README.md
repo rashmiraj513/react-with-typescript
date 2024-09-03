@@ -12,8 +12,8 @@ Welcome to my React Learning repository with TypeScript! This repository is dedi
 - Using Redux with TypeScript
 - Practice Project: 'Book a Session' Management Application
 
-> For scaffolding the React project, `vite` is used.
+> For scaffolding the React projects, `vite` is used.
 
 ## Credits
 
-This repository follows the Udemy Course [React & TypeScript - The Practical Guide](https://www.udemy.com/course/react-typescript-the-practical-guide/) by [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/).
+This repository follows the Udemy Course [React & TypeScript - The Practical Guide](https://www.udemy.com/course/react-typescript-the-practical-guide/) by [Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/).
